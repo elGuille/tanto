@@ -1,8 +1,9 @@
 
 $(document).ready(function(){
 	
-	$('input[type="text"], input[type="password"], textarea').each(function() {
-		$(this).val( $(this).attr('placeholder') );
-    });
+	$(".form-first-name").val("First name...");
+	$(".form-last-name").val("Last name...");
+	$(".form-email").val("Email...");
+	$(".form-about-yourself").val("About yourself...");
 	
 });
